@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Let's Janken Game!</h1>
+    <p class="count"></p>
+    <section class="result">
+        <section id="your_box">
+            <p class="name">You</p>
+            <figure class="boxA">
+                <img class="myImg" src="">
+            </figure>
+        </section>
+        <section id="com_box">
+            <p class="name">Computer</p>
+            <figure>
+                <img class="comImg" src="">
+            </figure>
+        </section>
+        <p class="result_text">result</p>
+    </section>
+
+    <ul class="choice">
+        <li class="btn" data-choice="0"><img src="img/janken_0.png" alt=""></li>
+        <li class="btn" data-choice="1"><img src="img/janken_1.png" alt=""></li>
+        <li class="btn" data-choice="2"><img src="img/janken_2.png" alt=""></li>
+    </ul>
+    <p class="text">どれを出す？</p>
+
+    <button class="start_btn">START</button>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

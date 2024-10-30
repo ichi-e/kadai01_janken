@@ -1,0 +1,94 @@
+h1 {
+    margin: 20px ;
+    border-bottom: 1px solid #FF007E;
+    font-size: 20px;
+}
+.count {
+    height: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.choice {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0;
+}
+.choice li {
+    padding: 20px;
+    border: 1px solid #999;
+}
+.choice li:hover {
+    background: yellow;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.result {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 50px;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+.name {
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    background: #666;
+    color: #fff;
+    margin: 0;
+    height: 50px;
+    line-height: 50px;
+}
+.result section {
+    border: 1px solid #999;
+}
+.result_text {
+    grid-column: 1/3;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0;
+    color: #FF007E;
+    line-height: 50px;;
+}
+.text {
+    text-align: center;
+}
+
+.bg_yellow {
+    background: #FFFF00;
+}
+
+figure {
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+figure img {
+    height: 210px;
+    width: auto;
+}
+
+.not_active {
+    pointer-events: none;
+    background: #eee;
+}
+.start_btn {
+    display: block;
+    max-width: 600px;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: bold;
+}
